@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(136, 172, 238);
+}
+
+header{
+    top:0;
+    background:rgb(238, 123, 177);
+    padding: 20px;
+    width: 100%;
+    
+}
+.nav-links{
+    display: flex;
+    justify-content: left;
+    list-style: none;
+
+}
+.nav-links a{
+    color:white;
+    text-decoration: none;
+}
+.nav-links li{
+    margin:0 15px;
+}
+.girl-products{
+    display: flex;
+    width:500px;
+    border:30px;
+    padding:50px;
+    gap:100px;
+}
+.item{
+    
+    text-align: center;
+}
+.item img{
+    width:200px;
+    height:300px;
+    border:100px;
+    object-fit:cover;
+    border-radius: 10px;
+}
+.boy-products{
+    display: flex;
+    width:500px;
+    border:30px;
+    padding:50px;
+    gap:100px;
+}
+.kids-products{
+    display: flex;
+    width:500px;
+    border:30px;
+    padding:50px;
+    gap:100px;
+}
+h2{
+    text-align: center;
+    color:rgb(59, 18, 18);
+}
